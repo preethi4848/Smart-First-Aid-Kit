@@ -1,1 +1,21 @@
-# Smart-First-Aid-Kit
+# Smart First Aid Kit for the Visually Impaired
+
+Voice-activated box opens with precise guidance, ensuring the right medication every time
+
+## Story:
+
+We address these problems when the visually impaired person using the first Aid kit:
+
+Labelling: Traditional first aid kits usually have labels and instructions printed in text, which can be hard for visually impaired people to read. Organization: If the items in the first aid kit are not arranged in a clear and orderly way, it can be difficult to find what you need quickly in emergency times. Contents: The kit might have small items that look similar and are hard to tell apart by touch alone. For example, bandages, ointments, and antiseptics might feel the same and be hard to identify without looking. Emergency Procedures: If the kit has emergency procedures or first aid steps, they might not be in formats that are helpful for visually impaired people. We give a Solution for these problems in this project. These problems are identified, after my idea submission by the help of Contest master feedback. Thank you contest master's for your valued feedback. They have provided some helpful ideas through the feedback; thank you contest masters!
+
+## Solution:
+
+We provide solutions for the problems listed above in this project. Each problem has been thoroughly analysed to develop a comprehensive approach. We have implemented computer vision and Generative AI models to assist visually impaired individuals, offering solutions for each issue.
+
+In this project, we provide solutions using automation algorithms and Generative AI. With our system, visually impaired individuals can receive the correct tablets through voice commands. For example, when the user says, "I want a tablet for cold," the first aid box will automatically open the container that holds cold-related tablets. The AI will then instruct the user through voice guidance: "The first tablet box has opened, and the tablet is on the left side of the box" or "The needed second tablet has opened, and it's at the front side of the box." After the tablet is retrieved, the Generative AI will provide information about it.
+
+If the user says, "insect bite," the appropriate container will open, and the AI will provide step-by-step instructions. The container includes 4 crepe bandages, an instant cold pack, disposable nitrile gloves, a resuscitation shield, tweezers, 5 itch relief cream sachets, and 1 cardboard splint. The AI will guide the user through each step to treat their wound.
+
+## Key Features of This Project:
+
+The user can obtain tablets and other first aid kit items through voice commands, with instructions provided by the AI voice. If the user does not know the information about a tablet, they can simply show the front and back sides of the tablet in front of the first aid box. Using the Seed Studio XIAO ESP32S3 Sense and Camera module, the carved text on the tablet's front and back sides will be recognized and sent to the Generative AI model Gemini or GPT-4. The model will then provide information about the tablet in text format, which will be converted to voice. All first aid kit items are well-organized in the first aid box, which has two layers. The first layer contains daily needed items and tablets. The tablets are stored in separate containers. Normally, there are five small containers on both the left and right sides, and four containers in the front. In the second layer, the containers are customized based on the size of the items. This layer holds the essential first aid kit items, such as scissors, bandages, ointments, creams, and more. In this box, the items are well organized, making it easy to retrieve items during emergencies through voice commands. If you want any first aid instructions just ask the AI will reply in step-by-step procedure. We also provide an Android app for scanning tablets and ointments to obtain information via voice. In this app, the first aid box data is displayed, including the items and their expiry dates. You can access this information through voice commands by saying, "Tell me the item details". In this project, three months before the expiration of an item, you and your guardian will receive a message and notification. This message will also be sent to your medicine provider.
